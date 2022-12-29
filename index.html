@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- Google Fonts Smythe -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <p class="title">Jimmy's Diner</p>
+            <p class="subtitle">The best burgers and pizzas in town.</p>
+        </header>
+        <main>
+            <section id="menu-section"class="menu-section"></section>
+        </main>
+        <section id="order-section" class="order-section">
+            <p class="order-title">Your order</p>
+            <section id="order-items-section" class="order-items-section"></section>
+            <div id="hr-line"></div>
+            <p class="total-price-section">Total price:<span id="total-price"></span></p>
+            <button id="complete-order-btn">Complete order</button>
+        </section>
+        <div class="modal-payment" id="modal-payment">
+            <p class="modal-title">Enter card details</p>
+            <form id="modal-form">
+                <input type="text" name="fullName" placeholder="Enter your name" required/>
+                <input type="text" name="cardNumber" placeholder="Enter card number" required/>
+                <input type="text" name="cvv" placeholder="Enter CVV" required/>
+                <button type="submit" class="modal-btn">Pay</button>
+            </form>
+        </div>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

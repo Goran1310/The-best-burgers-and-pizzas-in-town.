@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+} 
+
+header {
+    background-image: url("images/diner-banner.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 167px;
+    margin-top: -6%;
+}
+
+
+header > p {
+    color: #FFF;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-left: 30px;  
+} 
+
+.title {
+    font-size: 39px;
+    margin-bottom: -50px;
+}
+
+.subtitle {
+    font-size: 23px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.menu-item {
+    margin: 0 5% 0 5%;
+    border-bottom: 1px solid grey;
+}
+
+.food-img {
+    width: 70px;
+    margin: 1rem 1rem 1rem -3rem;
+}
+
+.food-item-text {
+    line-height: 5px;
+}
+
+.align-right {
+    margin: auto 0 auto auto;
+} 
+
+.add-item-btn {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    background: #fff;
+    font-size: 32px;
+    color: grey;
+}
+
+.item-name {
+    font-size: 28px;
+    color: #000;
+}
+
+.item-ingredients {
+    font-size: 16px;
+    color: grey;
+}
+
+.item-price {
+    font-size: 20px;
+    color: #000;
+}
+
+#order-section {
+    display: none;
+}
+
+.order-items-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+
+.items {
+    margin: 5px 0;
+    position: relative;
+}
+
+span.item-price {
+    position: absolute;
+    right: 0;
+}
+
+.order-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+#hr-line {
+    height: 25px;
+    margin: 0 5%;
+    border-bottom: 2px solid black;
+}
+
+.remove {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.total-price-section {
+    margin: 3% 5%;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+#total-price {
+    font-size: 20px;
+}
+
+span.item-name {
+    margin: 30px 0;
+}
+
+#complete-order-btn {
+    background-color: #16DB99;
+    color: #FFF;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 20px 25px;
+}
+
+.modal-payment {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 62%;
+    width: 75%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.modal-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#modal-form {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+
+input {
+    height: 50px;
+    margin: 10px 25px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #757575;
+}
+
+.modal-btn {
+    margin: 40px 25px;
+    height: 50px;
+    background: #16DB99;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.complete {
+    display: flex;
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-size: 32px;
+    height: 100px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
